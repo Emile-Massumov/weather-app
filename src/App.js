@@ -29,7 +29,7 @@ function App() {
     let date = d.getDate();
     let month = months[d.getMonth()];
     let year = d.getFullYear();
-    return `${day} ${date} ${month} ${year}`
+    return `${day} ${date} ${month} ${year} `
     }
     return (
 <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
@@ -56,7 +56,9 @@ function App() {
            </div>
            <div className="weather">{weather.weather[0].main}</div>
            </div>
-           </div>
+         
+             </div>
+          
         ) : ('')}
     </main>
     </div>
