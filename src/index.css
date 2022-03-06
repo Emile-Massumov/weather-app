@@ -19,7 +19,6 @@ main {
 }
 .app.warm {
   background-image: url('../public/mtl.jpg');
-  padding: 25px;
 }
 .search-box {
   width: 100%;
