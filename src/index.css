@@ -43,7 +43,7 @@ main {
   background-color: rgba(255,255,255,0.75);
 }
 .location-box .location {
-  color:#FFF;
+  color:green;
   font-size: 32px;
   font-weight: 500;
   font-style: italic;
